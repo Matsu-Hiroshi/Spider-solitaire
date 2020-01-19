@@ -1,0 +1,27 @@
+
+ul.main{
+    display: inline;
+
+    $backcolor : black;
+    $width: 100px;
+    $height: 30px;
+    div{
+        background-color: $backcolor;
+        width: $width;
+        height: $height;
+    }
+
+}
+
+ul.sub{
+    display: inline;
+
+    $backcolor : green;
+    $width: 100px;
+    $height: 30px;
+    div{
+        background-color: $backcolor;
+        width: $width;
+        height: $height+40px;
+    }
+}

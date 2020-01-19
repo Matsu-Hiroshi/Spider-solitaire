@@ -1,0 +1,20 @@
+ul.main {
+  display: inline;
+}
+
+ul.main div {
+  background-color: black;
+  width: 100px;
+  height: 30px;
+}
+
+ul.sub {
+  display: inline;
+}
+
+ul.sub div {
+  background-color: green;
+  width: 100px;
+  height: 70px;
+}
+/*# sourceMappingURL=list.css.map */
