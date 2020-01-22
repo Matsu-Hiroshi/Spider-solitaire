@@ -1,20 +1,13 @@
-ul.main {
-  display: inline;
+body {
+  background-color: #50c050;
 }
 
-ul.main div {
+div.main div {
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(10% - 20px);
   background-color: black;
-  width: 100px;
-  height: 30px;
-}
-
-ul.sub {
-  display: inline;
-}
-
-ul.sub div {
-  background-color: green;
-  width: 100px;
-  height: 70px;
 }
 /*# sourceMappingURL=list.css.map */

@@ -1,27 +1,26 @@
 
-ul.main{
-    display: inline;
+body{
+    $baclColor: rgb(80, 192, 80);
 
-    $backcolor : black;
-    $width: 100px;
-    $height: 30px;
+    background-color: $baclColor;
+}
+
+div.main{
+
+    $margin-width: 10px;
+
     div{
-        background-color: $backcolor;
-        width: $width;
-        height: $height;
+        text-align: center;
+        display: inline-block;
+
+        margin-left: $margin-width;
+        margin-right: $margin-width;
+
+        width: calc(10% - 20px);
+        background-color: black;
+
     }
 
 }
 
-ul.sub{
-    display: inline;
 
-    $backcolor : green;
-    $width: 100px;
-    $height: 30px;
-    div{
-        background-color: $backcolor;
-        width: $width;
-        height: $height+40px;
-    }
-}
